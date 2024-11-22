@@ -8,3 +8,4 @@
 
 `tailwindcss`
 
+`wot-design-uni`

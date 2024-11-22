@@ -1,5 +1,9 @@
 <template>
-  <view class="exam-title mt-[60rpx]">home{{ currentPage.value }}</view>
+  <view class="exam-title mt-[60rpx]">
+    home {{ currentPage }}
+
+    <wd-button>主要按钮</wd-button>
+  </view>
 </template>
 
 <script setup lang="ts">
@@ -25,7 +29,7 @@ onLoad(async () => {
 });
 
 onShow(() => {
-  uni.hideHomeButton();
+  // uni.hideHomeButton();
 });
 </script>
 
